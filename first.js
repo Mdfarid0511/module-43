@@ -61,7 +61,7 @@ gradingSystem('bangladesh')
 
 
 //3. Use of normal function
- /***************************************************
+
  function addNumber(num1, num2){
    
    const sum = num1 + num2;
@@ -88,7 +88,7 @@ const numbers = (num)=>{
    }
 }
 numbers(10);
- ******************************************************/ 
+ 
 
 
 
