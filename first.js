@@ -1,6 +1,5 @@
 // 1. using of let and constant.
 
-/*********************************************
  let numberOne = 10;
 numberOne = 0;
  console.log(numberOne) 
@@ -8,13 +7,12 @@ numberOne = 0;
 const myName = 'Farid';
 const countryName = 'I am Bangladeshi'
 console.log(countryName, ':', myName); 
-***********************************************/
+
 
 
 
 // 2. How to write the 6 types of condition (>, <, >=, <=, ===, !==) use of (&& ,||)
 
-/*************************************************
 function twoNumbers (num1, num2){
 
    if(num1 > num2){
@@ -56,12 +54,12 @@ function gradingSystem (grade){
 }
 gradingSystem('bangladesh')
 
-****************************************************/
+
 
 
 
 //3. Use of normal function
- /***************************************************
+ 
  function addNumber(num1, num2){
    
    const sum = num1 + num2;
@@ -119,11 +117,11 @@ const oddNumbers = (number) =>{
    }
 } 
 oddNumbers(100);
- ******************************************************/ 
 
 
 
-/* *****************************************************
+
+
 // Uses of loop (for, while, do while)
 
 // for loop 
@@ -172,10 +170,10 @@ function myPhones (){
 }
 myPhones()
 }
-****************************************************/
 
 
-/*****************************************************
+
+
 // Use of array (length, index, push, pop, indexOf, includes)
 // normal
 const numbers = [10, 50, 80, 70,30, 125, 25];
@@ -209,8 +207,22 @@ names.pop();
 names[1] = 'nadu';
 const nweName = names.indexOf('sohag')
 console.log(nweName);
-*********************************************************/ 
+ 
 
+
+// use of object
+
+// Normal declaration
+const phones = {
+   brand:'samsung', color:'yellow', quality:'good', quantity:'20',
+   brand:'sony', color:'green', quality:'not-bad', quantity:'10',
+   brand:'nokia', color:'yellow', quality:'good', quantity:'28',
+   brand:'xaomi', color:'white', quality:'good', quantity:'23',
+
+}
+
+console.log(phones.brand)
+console.log(phones['brand'])
 
 
 
