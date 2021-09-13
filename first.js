@@ -175,21 +175,41 @@ myPhones()
 ****************************************************/
 
 
+/*****************************************************
+// Use of array (length, index, push, pop, indexOf, includes)
+// normal
+const numbers = [10, 50, 80, 70,30, 125, 25];
+console.log(...numbers);
+const phones = ['Samsung', 'Sony', 'IPhone', 'Nokia']
+console.log(...phones);
 
+// use of length
+const numbers = ['Samsung', 'Sony', 'IPhone', 'Nokia'];
+const totalLength = numbers.length;
+console.log(totalLength);             
 
+// use of push
+const numbers = [10, 50, 80, 70,30, 125, 25];
+numbers.push (100);
+console.log(...numbers);
 
+const phones = ['Samsung', 'Sony', 'IPhone', 'Nokia']
+phones.push('xaomi');
+console.log(phones);
 
+// use of pop
+const names = ['faruk', 'biddud', 'ashick', 'rabbi', 'sohag'];
+names.pop();
+console.log(names)
 
-
-
-
-
-
-
-
-
-
-
+// use of indexOf
+const names = ['faruk', 'biddud', 'ashick', 'rabbi', 'sohag'];
+names.push('patu')
+names.pop();
+names[1] = 'nadu';
+const nweName = names.indexOf('sohag')
+console.log(nweName);
+*********************************************************/ 
 
 
 
